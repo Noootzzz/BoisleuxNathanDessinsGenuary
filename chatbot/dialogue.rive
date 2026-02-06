@@ -1,0 +1,35 @@
+// Basic greetings
++ hello
+- Hello there!
+- Hi!
+- Greetings.
+
++ hi
+- Hello!
+
++ how are you
+- I'm a bot, so I don't have feelings, but I'm functioning perfectly!
+- Doing well, thanks.
+
+// Tutorial examples
++ what was the earliest chatbot
+- The first well-known chatbot was called ELIZA.
+
++ when was the first chatbot created
+- ELIZA was designed in 1964 and introduced in 1966 at MIT.
+
++ who made the earliest chatbot
+- Computer scientist Joseph Weizenbaum made the bot ELIZA as an experiment in 1964.
+
+// Wildcards
++ my name is *
+- <set name=<star>>Nice to meet you, <get name>.
+
++ what is my name
+* <get name> == undefined => You haven't told me your name yet.
+- Your name is <get name>.
+
++ *
+- I'm not sure how to reply to that.
+- Can you rephrase that?
+- interesting.
